@@ -49,10 +49,6 @@ if __name__ == "__main__":
             ignored_files_and_dirs.append(filename)
             continue
 
-        # elif re.match(r"^\d{6}", filename):
-        #     all_files.append(f"o {filename}")
-        #     files_to_process.append(filepath)
-        #     continue
         elif not re.match(r"^\d{6}", filename):
             answer = ""
             while answer == "":
